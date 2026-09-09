@@ -10,23 +10,23 @@
 # notarized for exactly these four targets. `brew install` should not take
 # minutes to do again, worse, what a download does in seconds.
 #
-# GENERATED for srelens-v0.10.0 — do not edit by hand.
+# GENERATED for srelens-v0.11.0 — do not edit by hand.
 # Rendered from packaging/homebrew/srelens-tui.rb in srelens/srelens by
 # packaging/homebrew/render.mjs, using that release's published SHA256SUMS.
 class SrelensTui < Formula
   desc "Kubernetes control room in your terminal, built in Rust with k9s navigation"
   homepage "https://github.com/srelens/srelens"
-  version "0.10.0"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.10.0/srelens-tui-0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fa03812a43288592accf598f3a2cf14a1feb51a2468d78f91b594d1e294b3a2c"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.11.0/srelens-tui-0.11.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e2a05f2eab495f5d3069dce9ac2f800ef517a44c5a5148a0d82acb4bad2a4e77"
     end
     on_intel do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.10.0/srelens-tui-0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "00c0a0b2bbd1fb2c055dc9e4001ff29cdb43915deab65acf62ed114a04624731"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.11.0/srelens-tui-0.11.0-x86_64-apple-darwin.tar.gz"
+      sha256 "60d818d87d98d67d02a80557cbcb6e058a30b8a59ed34be65015093e9281887c"
     end
   end
 
@@ -45,12 +45,12 @@ class SrelensTui < Formula
   # client that spends its time waiting on an API server.
   on_linux do
     on_arm do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.10.0/srelens-tui-0.10.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f415f4065eeca599a035261ab8a3a10592cfbe8b7e77eeaeec259e0a79458580"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.11.0/srelens-tui-0.11.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2b981ed7f1bd62bd0af810579920c5a473b22c6fa785cf3823723ea1d69e3a95"
     end
     on_intel do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.10.0/srelens-tui-0.10.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "076aee60e906b4e202b70b25e8bcaf441240ab3ee7ce995832db21bf162c48b4"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.11.0/srelens-tui-0.11.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8123b6c390c36c503f7ebd500b85931f326f34169d40e3eff3271eb277595dc5"
     end
   end
 
