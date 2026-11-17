@@ -10,23 +10,23 @@
 # notarized for exactly these four targets. `brew install` should not take
 # minutes to do again, worse, what a download does in seconds.
 #
-# GENERATED for srelens-v0.17.0 — do not edit by hand.
+# GENERATED for srelens-v0.18.0 — do not edit by hand.
 # Rendered from packaging/homebrew/srectl.rb in srelens/srelens by
 # packaging/homebrew/render.mjs, using that release's published SHA256SUMS.
 class Srectl < Formula
   desc "Kubernetes control room in your terminal, built in Rust with k9s navigation"
   homepage "https://github.com/srelens/srelens"
-  version "0.17.0"
+  version "0.18.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.17.0/srectl-0.17.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e866dab12377393857f5ec5f1073327824a04d003e371f8324859e1fc5176f65"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.18.0/srectl-0.18.0-aarch64-apple-darwin.tar.gz"
+      sha256 "793dec169c79f9671dca971492c534491a4b16cd944a4ee1ba10d15225c2d709"
     end
     on_intel do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.17.0/srectl-0.17.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ba3a3ebb34521661700bf3e05a1c4383bb9ed51aa749166fac4906d992f017c4"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.18.0/srectl-0.18.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0e6ee845d589b95630bc52ddc018d6d38c22212538efc4b2f7d35525e12661ab"
     end
   end
 
@@ -45,12 +45,12 @@ class Srectl < Formula
   # client that spends its time waiting on an API server.
   on_linux do
     on_arm do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.17.0/srectl-0.17.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ea981e10833ce4da2c89a1bdb3277c338f36469f6effc5526027486aa36c7c84"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.18.0/srectl-0.18.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9b6578576cd426fe92011ab77569283f03adc6b44f902feae99e3ce0dfae103d"
     end
     on_intel do
-      url "https://github.com/srelens/srelens/releases/download/srelens-v0.17.0/srectl-0.17.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "af5b2b7cfc37cf775c92da88ba7e806c8bc23529cf9c60a1bd4b03f02f3cbf28"
+      url "https://github.com/srelens/srelens/releases/download/srelens-v0.18.0/srectl-0.18.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "73568f2fdb71ae8da8180eaca4f44c921a05979e57fd18be7328c6cb8b778a02"
     end
   end
 
